@@ -1,0 +1,11 @@
+@mixin App() {
+  .app {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0 1rem;
+    flex-wrap: wrap;
+  }
+}
